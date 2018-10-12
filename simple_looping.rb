@@ -19,11 +19,11 @@ end
 
 def while_iterator(number_of_times)
   loop do 
-	  puts "What is the spell that enacts levitation?"
+	  puts "Welcome to Flatiron School's Web Development Course!"
 	  answer = gets.chomp
-	  break if answer == "Wingardium Leviosa"
+	  break if answer == "STOP"
 	end
-  puts "Welcome to Flatiron School's Web Development Course!"
+  puts "Keep learning! You're almost there!"
 end
 
 def until_iterator(number_of_times)
