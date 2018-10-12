@@ -18,10 +18,12 @@ def times_iterator(number_of_times)
 end
 
 def while_iterator(number_of_times)
-  # code your solution here using the "while" keyword
-  # hint: user a counter to tell the while loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  loop do 
+	  puts "What is the spell that enacts levitation?"
+	  answer = gets.chomp
+	  break if answer == "Wingardium Leviosa"
+	end
+  puts "Welcome to Flatiron School's Web Development Course!"
 end
 
 def until_iterator(number_of_times)
